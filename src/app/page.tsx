@@ -102,6 +102,9 @@ export default function Home() {
           )}
         </div>
       </div>
+      <footer className="mt-8 text-xs text-gray-500">
+        <p>Project ID: {process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID || "Not Set"}</p>
+      </footer>
     </main>
   );
 }
